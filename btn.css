@@ -1,0 +1,28 @@
+.btn-yellow {
+  cursor: pointer;
+  color: white;
+  background: #CE973E;
+  border: 1px solid #CE973E;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 16px;
+  -webkit-box-shadow: 0 1px 2px black(0.1), inset 0 1px 0 white(0.15), inset 0 -1px 0 black(0.15);
+          box-shadow: 0 1px 2px black(0.1), inset 0 1px 0 white(0.15), inset 0 -1px 0 black(0.15);
+  font: bold 14px 'Open san', Helvetica, sans-serif;
+}
+
+.btn-blue {
+  cursor: pointer;
+  color: white;
+  background: #6abfc3;
+  border: 1px solid #6abfc3;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 16px;
+  -webkit-box-shadow: 0 1px 2px black(0.1), inset 0 1px 0 white(0.15), inset 0 -1px 0 black(0.15);
+          box-shadow: 0 1px 2px black(0.1), inset 0 1px 0 white(0.15), inset 0 -1px 0 black(0.15);
+  font: bold 14px 'Open san', sans-serif;
+}
+/*# sourceMappingURL=btn.css.map */

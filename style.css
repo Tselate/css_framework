@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+}
+
+nav {
+  width: 0%;
+  text-align: left;
+}
+
+nav .nav-logo {
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  float: right;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  font-size: larger;
+  color: #4a4a4ab3;
+}
+
+header {
+  font-family: 'Open sans', sans-serif;
+  text-align: center;
+  margin: 14% 2%;
+  width: 100%;
+}
+
+header .header-top {
+  color: #4A4A4A;
+  font-size: larger;
+  margin-bottom: 2%;
+}
+
+header .header-bottom {
+  color: #CE973E;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+body {
+  font-family: 'Open sans', sans-serif;
+  text-align: left;
+}
+
+body .page-information {
+  margin-left: 2%;
+}
+
+body h4 {
+  color: #4a4a4a;
+  font-size: large;
+  padding: 4px 0;
+}
+
+body p {
+  color: #4a4a4ab3;
+  font-size: medium;
+  letter-spacing: 0.2px;
+  line-height: 1.9;
+  margin: 3% 0;
+}
+
+body .instructions {
+  background-color: #f3f3f3;
+  padding: 1.5em;
+  border-radius: 10px;
+}
+
+body .instructions h5 {
+  color: #4A4A4A;
+}
+
+body .instructions ol li {
+  color: #4a4a4a;
+  font-size: small;
+  margin: 15px 0;
+}
+
+body .instructions li a {
+  color: #CE973E;
+}
+
+body section {
+  text-align: center;
+  background: #eee;
+  margin-top: 7%;
+  padding: 10px;
+}
+
+body section span {
+  color: #CE973E;
+  font-family: 'Open sans', sans-serif;
+  font-size: 10px;
+}
+
+body section .question {
+  font-size: x-large;
+}
+
+body section .chat {
+  font-size: medium;
+}
+
+body section .thinkful {
+  background: white;
+  margin: 6%;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+body section .thinkful p {
+  margin: 4%;
+}
+
+body section .thinkful .grid-text {
+  font-size: small;
+  font-weight: bolder;
+  line-height: 1.88;
+  color: #4A4A4A;
+}
+
+footer {
+  width: 60%;
+}
+
+footer .logo {
+  display: inline-block;
+}
+
+footer .social-media {
+  display: inline-block;
+  margin: 0 5%;
+}
+
+footer .footer-lists {
+  display: inline-block;
+}
+
+footer .footer-lists .lists li {
+  padding: 5px;
+  color: #4a4a4ab3;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (min-width: 550px) {
+  nav {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .page-information {
+    padding: 0 15%;
+  }
+  .instructions {
+    margin: 0 10%;
+  }
+  footer {
+    width: 100%;
+  }
+  footer .social-media {
+    margin-right: 35%;
+  }
+  footer .lists {
+    float: right;
+    width: 100%;
+    margin-left: 10%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
